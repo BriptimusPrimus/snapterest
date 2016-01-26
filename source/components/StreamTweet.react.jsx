@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Header = require('./Header.react');
-var Tweet = require('./Tweet.react');
+var Header = require('./Header.react.jsx');
+var Tweet = require('./Tweet.react.jsx');
 
 var StreamTweet = React.createClass({
 
