@@ -1,6 +1,6 @@
 var React = require('react');
 var Stream = require('./Stream.react.jsx');
-// var Collection = require('./Collection.react.jxs');
+var Collection = require('./Collection.react.jsx');
 
 var Application = React.createClass({
 
@@ -36,12 +36,7 @@ var Application = React.createClass({
     });
   },
 
-  render: function () {
-      
-            // <Collection
-            //   tweets={this.state.collectionTweets}
-            //   onRemoveTweetFromCollection={this.removeTweetFromCollection}
-            //   onRemoveAllTweetsFromCollection={this.removeAllTweetsFromCollection} />
+  render: function () {      
                   
     return (
       <div className="container-fluid">
@@ -54,7 +49,10 @@ var Application = React.createClass({
           </div>
           <div className="col-md-8">
           
-            <p>Collection</p>
+            <Collection
+              tweets={this.state.collectionTweets}
+              onRemoveTweetFromCollection={this.removeTweetFromCollection}
+              onRemoveAllTweetsFromCollection={this.removeAllTweetsFromCollection} />
             
           </div>
         </div>
