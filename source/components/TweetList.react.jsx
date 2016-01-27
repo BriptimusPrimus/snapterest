@@ -1,5 +1,5 @@
 var React = require('react');
-var Tweet = require('./Tweet.react.jsx');
+var Tweet = require('./Tweet.react');
 
 var listStyle = {
   padding: '0'

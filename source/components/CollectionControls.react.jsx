@@ -1,8 +1,8 @@
 var React = require('react');
-var Header = require('./Header.react.jsx');
-var Button = require('./Button.react.jsx');
-var CollectionRenameForm = require('./CollectionRenameForm.react.jsx');
-var CollectionExportForm = require('./CollectionExportForm.react.jsx');
+var Header = require('./Header.react');
+var Button = require('./Button.react');
+var CollectionRenameForm = require('./CollectionRenameForm.react');
+var CollectionExportForm = require('./CollectionExportForm.react');
 
 var CollectionControls = React.createClass({
 
