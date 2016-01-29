@@ -1,4 +1,4 @@
-jest.dontMock('../Button.react');
+jest.dontMock('../Button.react.jsx');
 
 describe('Button component', function () {
 
@@ -6,7 +6,7 @@ describe('Button component', function () {
 
     var React = require('react');
     var TestUtils = require('react-addons-test-utils');
-    var Button = require('../Button.react');
+    var Button = require('../Button.react.jsx');
     var handleClick = jest.genMockFunction();
 
     var button = TestUtils.renderIntoDocument(

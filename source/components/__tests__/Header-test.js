@@ -1,4 +1,4 @@
-jest.dontMock('../Header.react');
+jest.dontMock('../Header.react.jsx');
 
 describe('Header component', function () {
 
@@ -7,7 +7,7 @@ describe('Header component', function () {
     var React = require('react');
     var ReactDOM = require('react-dom');
     var TestUtils = require('react-addons-test-utils');
-    var Header = require('../Header.react');
+    var Header = require('../Header.react.jsx');
 
     var header = TestUtils.renderIntoDocument(
       <Header text="Testing..." />

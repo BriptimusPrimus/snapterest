@@ -37,6 +37,12 @@
     ],
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react"
-    ]
-  }  
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]    
+  },
+  "babel": {
+    "presets": ["es2015", "react"]
+  }    
 }
