@@ -25,6 +25,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "flux": "^2.1.1",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "snapkite-stream-client": "^1.0.3"
@@ -40,9 +41,12 @@
     ],
     "modulePathIgnorePatterns": [
       "<rootDir>/node_modules/"
-    ]    
+    ]
   },
   "babel": {
-    "presets": ["es2015", "react"]
-  }    
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
 }
